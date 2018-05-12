@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background-color: #2079C7;
+  display: flex;
+}
+
+@media (min-width: 576px) { 
+  .header {
+    
+  }  
+}
+
+@media (min-width: 768px) { 
+  .header {
+    
+  }  
+}
+
+@media (min-width: 992px) {
+  .header {
+    
+  }  
+}
+
+@media (min-width: 1200px) {
+  .header {
+    position: static;
+    margin-top: 80px;
+    margin-left: 50%;
+    margin-right: 20%;
+    background: none;
+    width: auto;
+    height: 20px;
+    color: #2079C7;
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: space-evenly;
+  }  
+}
