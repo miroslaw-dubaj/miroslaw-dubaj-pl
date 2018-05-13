@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import NavItem from '../nav-item'
+import NavBar from '../../modules/nav-bar';
+import Logo from '../logo';
 import './style.css';
 
 class Header extends Component {
   render() {
     return (
       <div className='header'>
-        <NavItem title='About'/>
-        <NavItem title='Services'/>
-        <NavItem title='Gallery'/>
-        <NavItem title='Blog'/>
-        <NavItem title='Contact'/>
+        <Logo className='logo' />
+        <NavBar className='nav-bar' />
       </div>
     );
   }

@@ -1,0 +1,59 @@
+/* Photo by Alejandro Escamilla on Unsplash */
+.slider-grid {
+
+}
+
+.slider-item-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 112px 20px 80px 20px; 
+}
+
+.slider-item-category {
+  color: #d5d4d4;
+  font-size: 38px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 6px 0;
+}
+
+.slider-item-title {
+  color: #f2f2f2;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0;
+}
+
+.component-button {
+  width: 148px;
+  height: 38px;
+  color: #2079C7;
+  border: 1px solid #2079C7;
+  background: transparent;
+  margin: 50px 0;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.slider-item-number {
+  color: #f2f1f1;
+  font-size: 169px;
+  font-weight: 700;
+  line-height: 169px;
+  margin: 0;
+}
+
+.slider-nav-bottom {
+  position: fixed;
+  bottom: 80px;
+  z-index: 3;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  color: #2079C7;
+}
+
+

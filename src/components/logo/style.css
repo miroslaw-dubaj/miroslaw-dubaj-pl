@@ -1,0 +1,42 @@
+.logo {
+  height: 45px;
+  width: 45px;
+  margin: 20px;
+}
+
+.logo-img {
+  border-radius: 50%;
+}
+
+.logo-img:hover {
+  box-shadow: 2px 2px 2px 1px #d5d4d4;
+}
+
+@media (min-width: 992px) {
+  .logo {
+    margin: 0;
+  }  
+
+  .logo-img {
+    position: relative;
+    right: 25%;
+    
+  }
+
+  .logo::after {
+    content: "Miroslaw Dubaj";
+    display: inline-block;
+    white-space: pre;
+    position: relative;
+    right: 382%;
+    color: #d5d4d4;
+    font-family: "Josefin Sans";
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 64.59px;
+    text-transform: uppercase;
+    letter-spacing: 4.93px;
+    transform: rotate(-0.25turn);
+    padding-right: 80px;
+  }
+}

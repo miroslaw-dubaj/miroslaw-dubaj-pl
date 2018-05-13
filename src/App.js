@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import Header from './components/header'
+import Header from './components/header';
+import Slider from './modules/slider';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className='grid'>
         <Header />
-        <Logo />
+        <Slider />
       </div>
     );
   }
