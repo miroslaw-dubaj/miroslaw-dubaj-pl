@@ -30,10 +30,9 @@
 @media (min-width: 992px) {
   .nav-menu {
     position: static;
-    margin-left: 50%;
+    margin-left: 40%;
     margin-right: 20%;
     background: none;
-    width: auto;
     height: 20px;
     color: #2079C7;
     font-size: 20px;

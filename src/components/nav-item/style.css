@@ -3,6 +3,10 @@
   width: 100%;
 }
 
+.nav-item:first-child {
+  display: none;
+}
+
 .nav-item:hover {
   background-color: #282828;
 }
@@ -26,6 +30,9 @@
 @media (min-width: 576px) { 
   .nav-item {
     width: 20%;
+  }
+  .nav-item:first-child {
+    display: flex;
   }  
 }
 
@@ -44,6 +51,7 @@
 
    .nav-item-link::before {
     content: "/";
+    font-size: 20px;
   }
 
   .nav-item-link:link {
@@ -80,5 +88,6 @@
 
   .nav-item-title {
     margin: 0 3px;
+    font-size: 20px;
   }
 }
