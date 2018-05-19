@@ -1,4 +1,4 @@
-.social-menu {
+.social_menu {
   display: flex;
   flex-direction: row;
   position: fixed;
@@ -7,12 +7,12 @@
   font-size: 36px;
 }
 
-.social-menu-item {
+.social_menu_item {
   margin: 5px 5px;
 }
 
 @media (min-width: 992px) {
-  .social-menu {
+  .social_menu {
     display: flex;
     flex-direction: column;
     color: #2079C7;
@@ -26,34 +26,34 @@
     left: 25%;
   }
 
-  .social-menu-item {
+  .social_menu_item {
     margin: 5px 0px;
   }
 }
 
-.social-menu-link:link {
+.social_menu_link:link {
   color:#2079C7;
   text-decoration: none;
   }
 
-.social-menu-link:visited {
+.social_menu_link:visited {
   color:#2079C7;
   text-decoration: none;
   }
 
-.social-menu-link:hover {
+.social_menu_link:hover {
   color: #ebebeb;
   text-decoration: none;
   background-color: none;
 }
 
-.social-menu-link:active {
+.social_menu_link:active {
   color: #ebebeb;;
   text-decoration: none;
   background-color: none;
 }
 
-.social-menu-link:active {
+.social_menu_link:active {
   color: #2079C7;
   text-decoration: none;
 }

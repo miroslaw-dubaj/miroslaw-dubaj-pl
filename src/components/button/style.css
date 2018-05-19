@@ -1,4 +1,4 @@
-.component-button {
+.component_button {
   width: 148px;
   height: 38px;
   color: #2079C7;
@@ -13,13 +13,13 @@
   text-transform: capitalize;
 }
 
-.component-button:hover {
+.component_button:hover {
   color: #ebebeb;
   border: 1px solid #ebebeb;
 }
 
 @media (min-width: 992px) {
-  .component-button {
+  .component_button {
     width: 296px;
     height: 76px;
     margin: 60px 0;

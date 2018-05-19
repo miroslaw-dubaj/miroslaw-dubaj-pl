@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import NavItem from '../nav-item';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import './style.css';
+import styles from './style.css';
 
 class NavBar extends PureComponent {
   constructor(props) {
@@ -18,7 +18,7 @@ class NavBar extends PureComponent {
   
   render() {
     return (
-      <div className='nav-menu'>
+      <div className={styles.nav_menu}>
         <NavItem onNavClick={this.onNavItemClick}>
           <FontAwesomeIcon icon='home' />
         </NavItem>

@@ -1,4 +1,4 @@
-.nav-menu {
+.nav_menu {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -9,26 +9,26 @@
 }
 
 @media (min-width: 320px) { 
-  .nav-menu {
+  .nav_menu {
     flex-direction: row;
     height: 60px;
   }  
 }
 
 @media (min-width: 576px) { 
-  .nav-menu {
+  .nav_menu {
     
   }  
 }
 
 @media (min-width: 768px) { 
-  .nav-menu {
+  .nav_menu {
     
   }  
 }
 
 @media (min-width: 992px) {
-  .nav-menu {
+  .nav_menu {
     position: static;
     margin-left: 40%;
     margin-right: 20%;
@@ -42,7 +42,7 @@
 }
 
 @media (min-width: 1200px) {
-  .nav-menu {
+  .nav_menu {
  
   }  
 }

@@ -1,4 +1,4 @@
-.slider-note-container {
+.slider_note_container {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
@@ -11,7 +11,7 @@
   z-index: 2;
 }
 
-.slider-note-title {
+.slider_note_title {
   color: #060306;
   font-size: 25px;
   font-weight: 400;
@@ -20,7 +20,7 @@
   margin: 0;
 }
 
-.slider-note-subtitle {
+.slider_note_subtitle {
   color: #a2a2a2;
   font-size: 14px;
   font-weight: 400;
@@ -30,7 +30,7 @@
   margin: 0;
 }
 
-.slider-note-paragraph {
+.slider_note_paragraph {
   color: #515151;
   font-size: 13px;
   font-weight: 400;
@@ -40,38 +40,38 @@
 }
 
 @media (min-width: 992px) {
-  .slider-note-container {
+  .slider_note_container {
     margin-right: 50px;
     max-width: 360px;
   }
-  .slider-note-title {
+  .slider_note_title {
     font-size: 40px;
     margin-bottom: 14px;
   }
-  .slider-note-subtitle {
+  .slider_note_subtitle {
     font-size: 20px;
     margin-bottom: 40px;
   }
-  .slider-note-paragraph {
+  .slider_note_paragraph {
     font-size: 20px;
     line-height: 36px;
   }
 }
 
 @media (min-width: 1200px) {
-  .slider-note-container {
+  .slider_note_container {
     margin-right: 50px;
     bottom: 220px;
   }
-  .slider-note-title {
+  .slider_note_title {
     font-size: 40px;
     margin-bottom: 14px;
   }
-  .slider-note-subtitle {
+  .slider_note_subtitle {
     font-size: 20px;
     margin-bottom: 40px;
   }
-  .slider-note-paragraph {
+  .slider_note_paragraph {
     font-size: 20px;
     line-height: 36px;
   }

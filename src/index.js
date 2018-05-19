@@ -11,7 +11,7 @@ import faPhone from '@fortawesome/fontawesome-free-solid/faPhone';
 import faAt from '@fortawesome/fontawesome-free-solid/faAt';
 import faLongArrowAltRight from '@fortawesome/fontawesome-free-solid/faLongArrowAltRight';
 import faLongArrowAltLeft from '@fortawesome/fontawesome-free-solid/faLongArrowAltLeft';
-import './index.css';
+import styles from './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 

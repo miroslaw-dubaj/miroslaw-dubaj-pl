@@ -1,12 +1,12 @@
 import React from 'react';
 import SocialLinks from '../social-links';
 import logo from '../../images/logo-1.png';
-import './style.css';
+import styles from './style.css';
 
 const Logo = () => {
   return (
-    <div className='logo'>
-      <a href='#' className='logo-link'>
+    <div className={styles.logo}>
+      <a href='#' className={styles.logo_link}>
         <img src={logo} className='logo-img' />
       </a>
       <SocialLinks />

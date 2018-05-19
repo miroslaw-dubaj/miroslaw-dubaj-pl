@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import Header from './components/header';
 import Slider from './components/slider';
 import PageHead from './components/page-head';
-import './App.css';
+import styles from './App.css';
 
 const PAGES = {
   HOME: 'Homepage'
@@ -33,7 +33,7 @@ class App extends PureComponent {
 
   render() {
     return (
-      <div className='grid'>
+      <div className={styles.grid}>
         <Header />
         {this.state.activePage === PAGES.HOME && <Slider slides={this.state.slides}/>}
       </div>
