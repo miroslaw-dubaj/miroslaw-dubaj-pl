@@ -13,7 +13,8 @@ class NavBar extends PureComponent {
   }
 
   onNavItemClick(event) {
-    () => this.setState({ activePage: 'Works'});
+    console.log("🚀 ~ file: index.js ~ line 16 ~ NavBar ~ onNavItemClick ~ onNavItemClick", event.target)
+    // () => this.setState({ activePage: 'Works'});
   }
   
   render() {

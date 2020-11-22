@@ -15,8 +15,12 @@ class SliderItem extends PureComponent {
           <p className={styles.slider_item_number}>{this.props.slide.id}</p>
         </div>
         <div className={styles.slider_nav_bottom}>
-          <SliderNavButton text='Previous Project' arrow='left' />
-          <SliderNavButton text='Next Project' arrow='right' />
+          <div onClick={this.props.back} className={styles.slider_nav_bottom_item}>
+            <SliderNavButton text='Previous Project' arrow='left' />
+          </div>
+          <div onClick={this.props.next} className={styles.slider_nav_bottom_item}>
+            <SliderNavButton text='Next Project' arrow='right'/>
+          </div>
         </div>
       </div>
     );
